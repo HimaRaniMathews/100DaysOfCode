@@ -5,3 +5,4 @@
 - 100 Days with DSA ✨ in codechef,hackerrank and codedazzler.
 
 **1. DAY 1-2 Completed Bootstrap Basics**
+**2. DAY 3 Completed JQuery Basics**

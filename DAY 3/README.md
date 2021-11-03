@@ -46,7 +46,7 @@
 </script>
 ```
 
-18. jQuery: Target Elements by Class Using jQuery_
+**jQuery: Target Elements by Class Using jQuery**
 
 
 ```html
@@ -72,7 +72,7 @@
 </script>
 ```
 
-18. jQuery: Target the Same Element with Multiple jQuery Selectors_
+**jQuery: Target the Same Element with Multiple jQuery Selectors**
 
 ```html
 <script>
@@ -84,7 +84,7 @@
 </script>
 ```
 
-18. jQuery: Remove Classes from an Element with jQuery_
+**jQuery: Remove Classes from an Element with jQuery**
 
 
 ```html
@@ -98,7 +98,7 @@
 </script>
 ```
 
-18. jQuery: Change the CSS of an Element Using jQuery_
+**jQuery: Change the CSS of an Element Using jQuery**
 
 
 ```html
@@ -109,7 +109,7 @@
 </script>
 ```
 
-v Disable an Element Using jQuery_
+**jQuery: Disable an Element Using jQuery**
 
 
 ```html
@@ -120,7 +120,7 @@ v Disable an Element Using jQuery_
   });
 </script>
 ```
-18. jQuery: Change Text Inside an Element Using jQuery_
+**jQuery: Change Text Inside an Element Using jQuery**
 
 
 ```html
@@ -131,8 +131,7 @@ v Disable an Element Using jQuery_
   });
 </script>
 ```
-
-18. jQuery: Remove an Element Using jQuery_
+**jQuery: Remove an Element Using jQuery**
 
 
 ```html
@@ -145,7 +144,7 @@ v Disable an Element Using jQuery_
 </script>
 ```
 
-18. jQuery: Use appendTo to Move Elements with jQuery_
+**jQuery: Use appendTo to Move Elements with jQuery**
 
 ```html
 <script>
@@ -158,7 +157,7 @@ v Disable an Element Using jQuery_
 </script>
 ```
 
-18. jQuery: Clone an Element Using jQuery_
+**jQuery: Clone an Element Using jQuery**
 
 
 ```html
@@ -173,7 +172,7 @@ v Disable an Element Using jQuery_
 </script>
 ```
 
-18. jQuery: Target the Parent of an Element Using jQuery_
+**jQuery: Target the Parent of an Element Using jQuery**
 
 
 ```html
@@ -189,7 +188,7 @@ v Disable an Element Using jQuery_
 </script>
 ```
 
-18. jQuery: Target the Children of an Element Using jQuery_
+**jQuery: Target the Children of an Element Using jQuery**
 
 
 ```html
@@ -206,7 +205,7 @@ v Disable an Element Using jQuery_
 </script>
 ```
 
-18. jQuery: Target a Specific Child of an Element Using jQuery_
+**jQuery: Target a Specific Child of an Element Using jQuery**
 
 
 ```html
@@ -224,7 +223,7 @@ v Disable an Element Using jQuery_
 </script>
 ```
 
-18. jQuery: Target Even Elements Using jQuery_
+**jQuery: Target Even Elements Using jQuery**
 
 
 ```html
@@ -244,7 +243,7 @@ v Disable an Element Using jQuery_
 </script>
 ```
 
-18. jQuery: Use jQuery to Modify the Entire Page
+**jQuery: Use jQuery to Modify the Entire Page**
 
 
 ```html
@@ -264,27 +263,4 @@ v Disable an Element Using jQuery_
   });
 </script>
 
-<!-- Only change code above this line. -->
 
-<div class="container-fluid">
-  <h3 class="text-primary text-center">jQuery Playground</h3>
-  <div class="row">
-    <div class="col-xs-6">
-      <h4>#left-well</h4>
-      <div class="well" id="left-well">
-        <button class="btn btn-default target" id="target1">#target1</button>
-        <button class="btn btn-default target" id="target2">#target2</button>
-        <button class="btn btn-default target" id="target3">#target3</button>
-      </div>
-    </div>
-    <div class="col-xs-6">
-      <h4>#right-well</h4>
-      <div class="well" id="right-well">
-        <button class="btn btn-default target" id="target4">#target4</button>
-        <button class="btn btn-default target" id="target5">#target5</button>
-        <button class="btn btn-default target" id="target6">#target6</button>
-      </div>
-    </div>
-  </div>
-</div>
-```

@@ -374,6 +374,8 @@ $x: 1;
 }
 ```
 
+<hr>
+
 ```sass
 <style type='text/sass'>
   h3{

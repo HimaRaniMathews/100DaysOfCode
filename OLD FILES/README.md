@@ -1,6 +1,6 @@
 #
 Contains the folders :
-- Boostrap
-- SASS
-- JQUERY
+- Boostrap :Freecodecamp solutions
+- SASS :Freecodecamp solutions
+- JQUERY :Freecodecamp solutions
 #

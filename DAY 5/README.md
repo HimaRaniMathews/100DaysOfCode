@@ -1,4 +1,0 @@
-# PHP
-- Login
-- Register
-- Authentication

@@ -1,9 +1,7 @@
-# 100DaysOfCode 
+# 100DaysOfWebDev
 
 - Revisiting HTML,CSS,Bootstrap,PHP,JS
-- *Focus on learning new concepts like ReactJS, NodeJS, & MongoDB (MERN STACK DEVELOPMENT)*
-- 100 Days with DSA ✨ in codechef,hackerrank and codedazzler.
+- *Focus on learning new concepts like ReactJS,Typescript, NodeJS,Express & MongoDB (MERN STACK DEVELOPMENT)*
 
-**1. DAY 1-2 Completed Bootstrap Basics** <br>
-**2. DAY 3 Completed JQuery Basics** <br>
-**3. DAY 4 Completed SASS Basics**<br>
+
+[**OLD FILES contain**](https://github.com/HimaRaniMathews/100DaysOfCode/tree/main/OLD%20FILES) : Bootstrap Basics, JQuery Basics, SASS Basics from freecodecamp

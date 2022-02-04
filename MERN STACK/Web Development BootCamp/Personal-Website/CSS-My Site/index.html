@@ -10,20 +10,39 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Merriweather&family=Playfair+Display:wght@600&family=Poppins:wght@500&family=Sacramento&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
 </head>
 
 <body>
+
+  <div class="container-1" id="home">
+    <a href="#" class="logo">My Portfolio</a>
+    <ul class="menu">
+      <li><a href="#home" onclick="toggleMenu();"><i class="fa fa-home"></i>&nbsp;HOME</a></li>
+      <li><a href="#about" onclick="toggleMenu();"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;ABOUT ME</a></li>
+      <li><a href="#skills" onclick="toggleMenu();"><i class="fa fa-wrench" aria-hidden="true"></i>&nbsp;SKILLS</a></li>
+      <li><a href="#projects" onclick="toggleMenu();"><i class="fa fa-file-code-o" aria-hidden="true"></i>&nbsp;PROJECTS</a></li>
+      <li><a href="#contact" onclick="toggleMenu();"><i class="fas fa-id-card" aria-hidden="true"></i>&nbsp;CONTACT ME</a></li>
+    </ul>
+  </div>
   <div class="container-2">
-    <img class="top-cloud" src="img/cloud.png" alt="Cloud">
-    <img class="b3-cloud" src="img/cloud.png" alt="Cloud">
-    <h1>I'm Hima </h1>
-    <h2>WEB DEVELOPER | ASPIRING DATA ANALYST</h2>
-    <img class="bottom-cloud" src="img/cloud.png" alt="Cloud">
-    <img class="b2-cloud" src="img/cloud.png" alt="Cloud">
-    <img src="img/mountain.png" alt="Mountain" class="mountain" >
+    <div class="c21">
+      <img src="./images/ico.png" alt="icon">
+    </div>
+    <div class="c22">
+      <h2>HIMA RANI MATHEWS</h2>
+      <h3>FRONTEND WEB DEVELOPER | ASPIRING DATA SCIENTIST</h3>
+      <h3><a href="https://github.com/HimaRaniMathews"><i class="fab fa-github faa" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/hima-rani-mathews/"><i class="fab fa-linkedin-square  faa" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://twitter.com/hima_mathews"><i class="fab fa-twitter  faa" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/himaranimathews/"><i class="fab fa-facebook  faa" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/himaranimathews/"><i class="fab fa-instagram  faa" style="font-size:30px"></i></a>
+      </h3>
+    </div>
   </div>
 
-  <div class="container-3">
+  <div class="container-3" id="about">
     <div class="heading-3">
       <h1>ABOUT ME&nbsp;<i class="fa fa-user" aria-hidden="true"></i></h1>
     </div>
@@ -43,10 +62,81 @@
           </ul>
         </div>
       </div>
-      <div  class="w32 imgdiv">
-        <img src="IMG/girl.jpg" class="img-responsive imgIM"  />
+      <div class="w32 imgdiv">
+        <img src="./images/a.jpg" class="img-responsive imgIM" />
       </div>
     </div>
+  </div>
+
+
+
+  <div class="container-4" id="projects">
+    <h1>My PROJECTS</h1>
+
+    <div class="c4 r1">
+      <a href="https://himaranimathews.github.io/JS-Music-Player/">
+        <img class="imgc42" src="./images/JavaScript Mini Projects.png" alt="PetsWorld">
+        <p class="pp1"> <a href="https://github.com/HimaRaniMathews/JS-Music-Player"> <button type="button" name="button">View Code</button></a> <a href="https://himaranimathews.github.io/JS-Music-Player/"><button type="button" name="button">Live
+              Link</button></a></p>
+        <h3>JavaScript Mini Projects</h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend nisi ac massa porttitor, et iaculis sapien hendrerit. Morbi viverra in augue ut tristique. Donec posuere iaculis egestas. Cras eget accumsan odio, ut ultricies
+          dolor.</p>
+      </a>
+    </div>
+
+    <div class="c4 r1">
+      <a href="http://himaranimathews-petsworld.epizy.com/">
+        <img class="imgc41" src="./images/PetsWorld.png" alt="PetsWorld">
+        <p class="pp2"><a href="https://github.com/HimaRaniMathews/JS-Music-Player"> <button type="button" name="button">View Code</button></a><a href="http://himaranimathews-petsworld.epizy.com/"> <button type="button" name="button">Live
+              Link</button></a></p>
+        <h3>PETSWORLD</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend nisi ac massa porttitor, et iaculis sapien hendrerit. Morbi viverra in augue ut tristique. Donec posuere iaculis egestas. Cras eget accumsan odio, ut ultricies
+          dolor. </p>
+      </a>
+    </div>
+
+    <div class="c4 r3">
+      <a href="https://himaranimathews-expensetracker.netlify.app/">
+        <img class="imgc42" src="./images/ReactJS Mini Projects.png" alt="PetsWorld">
+        <p class="pp1"><a href="https://github.com/HimaRaniMathews/JS-Music-Player"> <button type="button" name="button">View Code</button></a><a href="https://himaranimathews-expensetracker.netlify.app/"><button type="button" name="button">Live
+              Link</button></a></p>
+        <h3>ReactJS Mini Projects</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend nisi ac massa porttitor, et iaculis sapien hendrerit. Morbi viverra in augue ut tristique. Donec posuere iaculis egestas. Cras eget accumsan odio, ut ultricies
+          dolor.</p>
+      </a>
+    </div>
+  </div>
+
+  <div class="container-5" id="skills">
+    <div class="heading-3">
+      <h1>SKILLS&nbsp;&nbsp;<i class="fa fa-wrench" style="font-size:30px"></i></h1>
+      <h3>
+        <i class="fab fa-html5" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fab fa-css3-alt icon" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fab fa-js icon" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fab fa-bootstrap icon" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fas fa-database icon" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fab fa-php icon" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fab fa-python icon" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fab fa-react" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+      </h3>
+    </div>
+  </div>
+
+  <div class="container-6" id="contact">
+    <div class="heading-3">
+      <h1 class="h63">CONTACT ME&nbsp;&nbsp;<i class="fas fa-id-card" style="font-size:30px"></i></h1>
+      <h3 class="h61">Mail ID: himaranimathews@gmail.com</h3>
+      <h3 class="h62"><a href="https://github.com/HimaRaniMathews"><i class="fab fa-github faa" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/hima-rani-mathews/"><i class="fab fa-linkedin-square faa" style="font-size:30px;"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://twitter.com/hima_mathews"><i class="fab fa-twitter faa" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/himaranimathews/"><i class="fab fa-facebook faa" style="font-size:30px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/himaranimathews/"><i class="fab fa-instagram faa" style="font-size:30px"></i></a>
+
+      </h3>
+    </div>
+  </div>
 </body>
 
 </html>

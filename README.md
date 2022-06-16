@@ -1,9 +1,20 @@
-# #100DaysOfWebDev
+# MERN STACK-Exercises
 
-#### JAN 14 - APR 25
-- Revisiting HTML,CSS,Bootstrap,PHP,JS
-- Focus on learning new concepts like 
-  - ReactJS,Typescript, NodeJS,Express & MongoDB **(MERN STACK DEVELOPMENT)**
-  - Machine Learning & Data Science Concepts
+This repo contains the exercise solution of the [The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) with mini projects.
+
+MERN STACK 
+- FrontEnd
+  - HTML
+  - CSS
+  - Javascript
+  - Jquery
+  - Sass
+  - BootStrap
+  - ReactJS (in progress)
+ 
+- BackEND
+  - NodeJS (in progress)
+  - ExpressJS(in progress)
+  - MongoDB(in progress)
 
 
